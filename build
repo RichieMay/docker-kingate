@@ -1,0 +1,2 @@
+docker build -t richiemay/kingate:latest .
+docker tag richiemay/kingate:latest richiemay/kingate:$(cat version)
